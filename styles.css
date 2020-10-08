@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Lobster+Two:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    text-align: right;
+    margin: 0;
+}
+
+.page-wrapper {
+    padding: 10px;
+    margin: auto;
+    max-width: 800px;
+}
+
+h1,
+h3 {
+    font-family: 'Lobster Two', cursive;
+    color: #FFB16D;
+}
+
+h2,
+p,
+ul {
+    font-family: 'Lato', sans-serif;
+    color: #707070;
+}
+
+/*===== Navigation bar =====*/
+
+ul {
+    direction: rtl;
+}
+
+.nav-wrapper{
+    border: 5px solid #3b894e;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $light;
+}
+
+
+/*Drop down Menu*/
+.nav li:first-child {
+    display: block;
+}
+
+.nav li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+/*===== /Navigation bar =====*/
+
+/*===== Banner headings =====*/
+
+.banner {
+    max-width: 60%;
+}
